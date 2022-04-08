@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    position: relative;
+    background-color: ivory;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:maroon;
+}
+
+h1,
+h2 {
+    margin:20px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+nav {
+    background-color:darkslategray;
+    text-align: right; 
+    display:inline;
+}
+
+li {
+    color: ivory;
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+img {
+    display:block;
+    margin: 20px auto;
+}
+
+.section2 {
+    margin-top: 20px;
+    background-color: deepskyblue;
+}
+
+header,
+footer {
+    height:60px;
+    width:100%;
+    line-height: 60px;
+    background-color:darkslategray; 
+}
+
+header {
+    position:fixed;
+    border-bottom: 10px solid deepskyblue;
+}
+
+footer {
+    position:absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid deepskyblue;
+}
+
+a {
+    color: ivory;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border-top: 5px solid maroon;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid maroon;
+}
+
+button {
+    height:40px;
+    width: 120px;
+    background-color:darkslategray;
+    color:ivory
+}
+
+.pagefooter {
+   font-size: 15px;
+   text-align: center;
+}
